@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 export default function SlugPage({ post }) {
 useEffect(()=>{
-  location = `https://wbserieshd.com/${post?.slug}`
+  location = `https://www.gujarativat.com/${post?.slug}`
 },[])
   return (
     <div>
@@ -14,7 +14,7 @@ useEffect(()=>{
         <meta property="og:title" content={post?.title} />
         <meta property="og:description" content={post?.title} />
         <meta property="og:image" content={post?.featuredImage?.node?.sourceUrl} />
-        <meta property="og:url" content={`https://wbserieshdcc.vercel.app/${post?.slug}`} />
+        <meta property="og:url" content={`https://gujarativat.vercel.app/${post?.slug}`} />
         <meta property="og:type" content="articals" />
         <link rel="icon" href="favicon.ico"></link>
       </Head>
